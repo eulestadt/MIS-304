@@ -1,3 +1,12 @@
+# Name: Phoenix Wang
+# Assignment Number: Final Project
+# Date: 12/5/19
+# Section: 9:30-11
+# Description: The cupcake class for the cupcake object
+# that is sold at the cupcake shop. Allows the user to access
+# the price, flavor, inventory, and topping attributes of the
+# cupcake, while also checking each part.
+
 #cupcake class for cupcakes that are sold at the cupcake shop
 class Cupcake:
 

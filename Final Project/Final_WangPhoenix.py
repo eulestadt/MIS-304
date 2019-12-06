@@ -1,11 +1,14 @@
 # Name: Phoenix Wang
-# Assignment Number: 7
-# Date: 11/16/19
+# Assignment Number: Final Project
+# Date: 12/5/19
 # Section: 9:30-11
-# Description: A program that allows the user to to adjust the amount of cupcakes 
+# Description: A program that allows the user to interact with cupcakes
+# and displays a menu for the cupcakes with different options for the user
+# to do. 
 
 #imports the cupcakes class
 import cupcakes
+import my_graphics
 
 #main program to be executed
 def main():
@@ -19,6 +22,19 @@ def main():
     
     continueChoice = 'yes' #set loop to continue
 
+    #draw the turtle graphics
+    #draw the green square
+    my_graphics.square(-125, -125, 250, 'lime')
+    #draw the purple circle
+    my_graphics.circle(-125, 20, 60, 'purple')
+    #draw the pink circle
+    my_graphics.circle(0, 20, 60, 'pink')
+    #draw the yellow circle
+    my_graphics.circle(125, 20, 60, 'yellow')
+    #type the text
+    my_graphics.write(-50, -70, 'Welcome to the')
+    my_graphics.write(-55, -90, 'Cupcake Program')
+    
     #instantiating five cupcake objects
     #instantiating the blueberry cupcake
     blueberryCupcake = cupcakes.Cupcake(7.50, 'blueberry', 22)
